@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>          
+</head>
+<body>
+    <h2>Регистрация</h2>
+    <form action="/back-end/registration.py" method="get">
+        <fieldset>
+            <legend>Лични данни</legend>
+            <label>Име: <input type="text" name="firstName" autocomplete="off" autofocus placeholder="малко име, на латиница"></label><br>
+            <label>Име: <input type="text" name="lastName" autocomplete="off" placeholder="фамилия, на латиница"></label><br>
+            <label>Пол: мъж:<input type="radio" name="gender" value="m"></label>
+            <label>жена:<input type="radio" name="gender" value="f"></label>
+        </fieldset>
+        <p>Коментар:</p><textarea name="comment" cols="15" rows="2" placeholder="напишете ни нещо"></textarea><br>
+        <button>Изпрати</button>
+    </form>
+</body>
+</html>
+
+http://127.0.0.1:5500/back-end/registration.py?
+firstName=Kalina&lastName=Velichkova&gender=f&comment=Have+a+great+day%21
