@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>We_code_logo_page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+
+            font-size: 16px;
+            background-color: black;
+        }
+        header {
+            margin-top: 3em;
+            border-bottom: .35em solid hsla(213, 88%, 72%, 1);
+            height: 20%;
+
+            background-color: hsla(206, 33%, 32%, 1);
+        }
+        .logo {
+            position: relative;
+            margin: 0 auto;
+            vertical-align: top;
+            line-height: 5vh;
+        
+            width: 80vh;
+            height: 30vh;
+        }
+        .logo-text {
+            float: left;
+            margin-left: .15em;
+            margin-top: .5em;
+
+            font-size: 5em;
+            font-family: 'Lato', sans-serif;
+
+            color: rgba(255, 255, 255, .8);
+            text-shadow:
+            -1px 1px 0px rgba(34, 47, 61, .5),
+            -2px 2px 0px rgba(34, 47, 61, .5),
+            -3px 3px 0px rgba(34, 47, 61, .5),
+            -4px 4px 0px rgba(34, 47, 61, .5),
+            -5px 5px 0px rgba(34, 47, 61, .5),
+            -6px 6px 0px rgba(34, 47, 61, .5),
+            -7px 7px 0px rgba(34, 47, 61, .5),
+            -8px 8px 0px rgba(34, 47, 61, .5),
+            -9px 9px 0px rgba(34, 47, 61, .5),
+            -10px 10px 0px rgba(34, 47, 61, .5),
+            -11px 11px 0px rgba(34, 47, 61, .5),
+            -12px 12px 0px rgba(34, 47, 61, .5),
+            -13px 13px 0px rgba(34, 47, 61, .5),
+            -14px 14px 0px rgba(34, 47, 61, .5),
+            -15px 15px 0px rgba(34, 47, 61, .5),
+            -16px 16px 0px rgba(34, 47, 61, .5),
+            -17px 17px 0px rgba(34, 47, 61, .5),
+            -18px 18px 0px rgba(34, 47, 61, .5);
+        }   
+        .logo::before {
+            content: "@";
+            float: left;
+            margin-left: .5em;
+            margin-top: .5em;
+
+            font-size: 5em;
+            font-family:'Lato', sans-serif;
+            
+            color: rgba(103, 137, 171, .6);
+            text-shadow:
+            -1px 1px 0px rgba(34, 47, 61, .5),
+            -2px 2px 0px rgba(34, 47, 61, .5),
+            -3px 3px 0px rgba(34, 47, 61, .5),
+            -4px 4px 0px rgba(34, 47, 61, .5),
+            -5px 5px 0px rgba(34, 47, 61, .5),
+            -6px 6px 0px rgba(34, 47, 61, .5),
+            -7px 7px 0px rgba(34, 47, 61, .5),
+            -8px 8px 0px rgba(34, 47, 61, .5),
+            -9px 9px 0px rgba(34, 47, 61, .5),
+            -10px 10px 0px rgba(34, 47, 61, .5),
+            -11px 11px 0px rgba(34, 47, 61, .5),
+            -12px 12px 0px rgba(34, 47, 61, .5),
+            -13px 13px 0px rgba(34, 47, 61, .5),
+            -14px 14px 0px rgba(34, 47, 61, .5),
+            -15px 15px 0px rgba(34, 47, 61, .5),
+            -16px 16px 0px rgba(34, 47, 61, .5),
+            -17px 17px 0px rgba(34, 47, 61, .5),
+            -18px 18px 0px rgba(34, 47, 61, .5),
+            -19px 19px 0px rgba(34, 47, 61, .5),
+            -20px 20px 0px rgba(34, 47, 61, .5),
+            -21px 21px 0px rgba(34, 47, 61, .5);
+        }
+        #curly_bracket1 {
+            margin-left: .03em;
+            margin-right: .1em;
+
+            color: rgba(103, 137, 171, .6);
+            text-shadow:
+            -1px 1px 0px rgba(34, 47, 61, .5),
+            -2px 2px 0px rgba(34, 47, 61, .5),
+            -3px 3px 0px rgba(34, 47, 61, .5),
+            -4px 4px 0px rgba(34, 47, 61, .5),
+            -5px 5px 0px rgba(34, 47, 61, .5),
+            -6px 6px 0px rgba(34, 47, 61, .5),
+            -7px 7px 0px rgba(34, 47, 61, .5),
+            -8px 8px 0px rgba(34, 47, 61, .5),
+            -9px 9px 0px rgba(34, 47, 61, .5),
+            -10px 10px 0px rgba(34, 47, 61, .5),
+            -11px 11px 0px rgba(34, 47, 61, .5),
+            -12px 12px 0px rgba(34, 47, 61, .5),
+            -13px 13px 0px rgba(34, 47, 61, .5),
+            -14px 14px 0px rgba(34, 47, 61, .5),
+            -15px 15px 0px rgba(34, 47, 61, .5),
+            -16px 16px 0px rgba(34, 47, 61, .5),
+            -17px 17px 0px rgba(34, 47, 61, .5),
+            -18px 18px 0px rgba(34, 47, 61, .5),
+            -19px 19px 0px rgba(34, 47, 61, .5),
+            -20px 20px 0px rgba(34, 47, 61, .5),
+            -21px 21px 0px rgba(34, 47, 61, .5); 
+        }
+        #curly_bracket2 {
+            margin-left: .1em;
+
+            color: rgba(103, 137, 171, .6);
+            text-shadow:
+            -1px 1px 0px rgba(34, 47, 61, .5),
+            -2px 2px 0px rgba(34, 47, 61, .5),
+            -3px 3px 0px rgba(34, 47, 61, .5),
+            -4px 4px 0px rgba(34, 47, 61, .5),
+            -5px 5px 0px rgba(34, 47, 61, .5),
+            -6px 6px 0px rgba(34, 47, 61, .5),
+            -7px 7px 0px rgba(34, 47, 61, .5),
+            -8px 8px 0px rgba(34, 47, 61, .5),
+            -9px 9px 0px rgba(34, 47, 61, .5),
+            -10px 10px 0px rgba(34, 47, 61, .5),
+            -11px 11px 0px rgba(34, 47, 61, .5),
+            -12px 12px 0px rgba(34, 47, 61, .5),
+            -13px 13px 0px rgba(34, 47, 61, .5),
+            -14px 14px 0px rgba(34, 47, 61, .5),
+            -15px 15px 0px rgba(34, 47, 61, .5),
+            -16px 16px 0px rgba(34, 47, 61, .5),
+            -17px 17px 0px rgba(34, 47, 61, .5),
+            -18px 18px 0px rgba(34, 47, 61, .5),
+            -19px 19px 0px rgba(34, 47, 61, .5),
+            -20px 20px 0px rgba(34, 47, 61, .5),
+            -21px 21px 0px rgba(34, 47, 61, .5); 
+        }
+        article {
+            margin-top: -1em;
+            height: 60%;
+
+            color: rgba(255, 255, 255, .8);
+            background-color: hsla(206, 43%, 19%, 1);
+        }
+        p {
+            margin: .7em 10em 3em 10em;
+            padding-top: 2em;
+
+            font-size: 1.3em;
+            text-align: justify;
+        }
+        .snowflakes {
+            margin: 0 auto;
+            width: 12em;
+            height: 3em;
+        }
+        .snowflakes::before {
+            content: "\2744    \2744    \2744";
+            float: left;
+            font-size: 2.5em;
+
+            color: snow;
+            text-shadow:
+            1px 1px 0px hsla(213, 88%, 72%, 1),
+            2px 2px 0px hsla(213, 88%, 72%, 1),
+            3px 3px 0px hsla(213, 88%, 72%, 1),
+            4px 4px 1px hsla(213, 88%, 72%, 1),
+            5px 5px 2px hsla(213, 88%, 72%, 1),
+            6px 6px 3px hsla(213, 88%, 72%, 1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <div class="logo-text">we <span id="curly_bracket1">{</span>code<span id="curly_bracket2">}</span>
+            </div>
+        </div>    
+    </header>
+    <article>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti ut animi, blanditiis fugit maxime temporibus beatae. Maxime sed, dolorem saepe quibusdam debitis, aliquam sunt, quod maiores voluptatum dolores molestias cupiditate. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel iusto, perferendis, magnam non delectus quae commodi quasi repudiandae voluptates, illo doloribus praesentium itaque quas explicabo expedita impedit quam sapiente consequatur.</p>
+        <div class="snowflakes"></div>
+    </article>
+</body>
+</html>
