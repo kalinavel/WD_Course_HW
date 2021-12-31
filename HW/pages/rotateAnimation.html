@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rotate Animation</title>
+    <style>
+        div {
+            width: 3vh;
+            height: 50vh;
+            margin: 0 auto;
+            margin-top: 10vh;
+            border-radius: 0 0 50% 50%;
+
+            background-image: linear-gradient(yellow, red);
+            animation: rotatePen 2s infinite;
+        }
+        @keyframes rotatePen {
+            0%, 100% {
+                transform: rotate(90deg);
+                transform-origin: 100% 100%;
+            }
+            50% {
+                transform: rotate(-90deg);
+                transform-origin: 100% 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>
