@@ -89,11 +89,11 @@
         let x = 18 - userAge;
 
         if (userAge >= 18) {
-            console.log('Добре дошли, ' + userName + '!');
-        } else if (userAge < 18 && userAge > 12) {
-            console.log(userName + ', ще имате достъп само до определена функционалност от този сайт.');
+            console.log(`Добре дошли, ${userName}!`);
+        } else if (userAge < 18 && userAge >= 12) {
+            console.log(`${userName}, ще имате достъп само до определена функционалност от този сайт.`);
         } else {
-            console.log('Съжaлявам ' + userName + ', отбий се тук след ' + x + ' години!');
+            console.log(`Съжaлявам ${userName}, отбий се тук след ${x} години!`);
         }
 	    // <<<<<<<<<< КРАЙ НА ВАШИЯ КОД <<<<<<<<<<<<<
         }
