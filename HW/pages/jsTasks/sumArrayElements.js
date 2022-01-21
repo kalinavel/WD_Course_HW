@@ -17,8 +17,7 @@ for (let i = 0; i < numbers.length; i++) {
     
     let arrayElement = numbers[i];
     if ((arrayElement % 2 === 0) && (arrayElement > 0)) {
-    sum += i;
-
+        sum += i;
     }
 }
 console.log(Number(sum));
