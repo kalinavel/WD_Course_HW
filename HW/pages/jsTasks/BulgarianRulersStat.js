@@ -27,7 +27,7 @@ function toCamelCaseCyr(str) {
 let startDateRule;
 let endDateRule;
 let rulerOldest = [];
-let ruleTime;
+let rulePeriod;
 let rulerOldestTime = [];
 
 for (let i = 0; i < rulers.length; i++) {
@@ -35,18 +35,12 @@ for (let i = 0; i < rulers.length; i++) {
 
     startDateRule = rulers[i][1];
     endDateRule = rulers[i][2];
-    ruleTime = endDateRule - startDateRule;
+    rulePeriod = endDateRule - startDateRule;
     
-    if (ruleTime > 15) {
-        rulerOldest.push(toCamelCaseCyr(rulerName));
-        rulerOldestTime.push(ruleTime);
+    if (rulePeriod > 15) {
+        console.log(`${toCamelCaseCyr(rulerName)} е управлявал ${rulePeriod} години.`); 
     }
 }
-console.log(`${rulerOldest[0]} е управлявал ${rulerOldestTime[0]} години.`);
-console.log(`${rulerOldest[1]} е управлявал ${rulerOldestTime[1]} години.`);
-console.log(`${rulerOldest[2]} е управлявал ${rulerOldestTime[2]} години.`);
-console.log(`${rulerOldest[3]} е управлявал ${rulerOldestTime[3]} години.`);
-console.log(`${rulerOldest[4]} е управлявал ${rulerOldestTime[4]} години.`);
 
 // <<<<<<<<<< КРАЙ НА ВАШИЯ КОД <<<<<<<<<<<<<
 
