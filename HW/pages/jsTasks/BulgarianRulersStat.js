@@ -26,9 +26,7 @@ function toCamelCaseCyr(str) {
 // >>>>>>>>>>НАЧАЛО НА ВАШИЯ КОД >>>>>>>>>>
 let startDateRule;
 let endDateRule;
-let rulerOldest = [];
 let rulePeriod;
-let rulerOldestTime = [];
 
 for (let i = 0; i < rulers.length; i++) {
     let rulerName = rulers[i][0];
