@@ -5,16 +5,14 @@ let arr = [
 	[4,5,6]
 ];
 
-let sum = SumEven2DimArrayElements(arr);
-
 // ---> YOUR CODE HERE <---
 
 function SumEven2DimArrayElements(arr) {
-    let sum;
+    let sum = 0;
     for (let i = 0; i < arr.length; i++) {
-        let rows = arr[i];
+        const rows = arr[i];
         for (let j = 0; j < rows.length; j++) {
-            let num = rows[j];
+            const num = rows[j];
     
             if (num % 2 === 0) {
                 sum += num;
@@ -24,7 +22,7 @@ function SumEven2DimArrayElements(arr) {
     return sum;
 }
 
+let sum = SumEven2DimArrayElements(arr);
 // TEST:
 console.log(sum);
-
 // expected output: 12
