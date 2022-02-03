@@ -25,9 +25,10 @@ for (let i = 0, len = beers.length; i < len; i++) {
 function findCheapestBeer(beers) {
 	let cheapestBeer = beers[3].prices[2];
 	let indexCheapestBeer;
+	
 	for (let i = 0; i < beers.length; i++) {
 		const beer = beers[i];
-		beerPrice = beers[i].prices[2];
+		let beerPrice = beers[i].prices[2];
 		
 		if (beerPrice <= cheapestBeer) {
 			cheapestBeer = beerPrice;
